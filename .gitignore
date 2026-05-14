@@ -1,0 +1,11 @@
+# Binary
+parallel-log-analyzer
+
+# Generated data
+data/*.txt
+data/*.log
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
