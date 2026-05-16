@@ -219,3 +219,11 @@ func randomLLMLatency(r *rand.Rand, endpoint string) int {
 
 	return base
 }
+
+func RandomLLMRecord(r *rand.Rand, startTime time.Time, index int) llm.Record {
+	return randomLLMRecord(r, startTime, index)
+}
+
+func FormatLLMRecord(record llm.Record) string {
+	return formatLLMRecord(record)
+}
